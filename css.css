@@ -175,6 +175,10 @@ article header {
   padding-left: 10%;
   padding-right: 10%;
 }
+#label-0 {
+  color: #848b91;
+  font-weight: 500;
+}
 .full-height {
   height: 31em;
   align-items: center;
