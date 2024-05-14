@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>https://fs2.fastupload.io/202eafb0f507f3e0/Expo_Go_2.30.10_decrypted.ipa?download_token=46f4e5ca99ca38455f00a29a5d7010e4ca244cc874d5c0cf9b00457af0246567</string>
+                    </dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <key>bundle-identifier</key>
+                    <string>vn.com.vti.expo</string>
+                    <key>bundle-version</key>
+                    <string>2.30.10</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>title</key>
+                    <string>Expo VTI</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>

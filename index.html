@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header>
+        <h1>How to install <strong>Expo</strong> old version</h1>
+        <p>on Iphone.</p>
+    </header>
+    <section>
+        <article>
+            <form class="pure-steps">
+                <input type="radio" name="steps" class="pure-steps_radio" id="step-0" checked="">
+                <input type="radio" name="steps" class="pure-steps_radio" id="step-1">
+                <input type="radio" name="steps" class="pure-steps_radio" id="step-2">
+                <input type="radio" name="steps" class="pure-steps_radio" id="step-3">
+                <input type="radio" name="steps" class="pure-steps_radio" id="step-4">
+                <input type="radio" name="steps" class="pure-steps_radio" id="step-5">
+                <div class="pure-steps_group">
+                    <ol>
+                        <li class="pure-steps_group-step">
+                            <header>
+                                <h2 class="pure-steps_group-step_legend">Step 1</h2>
+                                <p class="pure-steps_group-step_item">Click button <strong>"Install"</strong> to start
+                                </p>
+                                <p class="pure-steps_group-step_item">Wait for the popup to show then choose
+                                    <strong>"Install"</strong>
+                                </p>
+                                <img class="image" src="image/2024_05_14_18_12_IMG_1004.JPG">
+                                <a id="install"
+                                    href="itms-services://?action=download-manifest&amp;url=https://expo-download.onrender.com/manifest.plist"></a>
+                            </header>
+                        </li>
+                        <li class="pure-steps_group-step">
+                            <header>
+                                <h2 class="pure-steps_group-step_legend">Step 2</h2>
+                                <p class="pure-steps_group-step_item">Go to <strong>"Setting"</strong> choose
+                                    <strong>"General"</strong>
+                                </p>
+                                <p class="pure-steps_group-step_item">Then find and choose <strong>"VPN & Device
+                                        Management"</strong>
+                                </p>
+                                <p class="pure-steps_group-step_item">Then select the enterprise app</p>
+                                <img class="image" src="image/2024_05_14_16_23_IMG_0993.JPG">
+                            </header>
+                        </li>
+                        <li class="pure-steps_group-step">
+                            <header>
+                                <h2 class="pure-steps_group-step_legend">Step 3</h2>
+                                <p class="pure-steps_group-step_item">Choose <strong>"Trust ..."</strong>
+                                </p>
+                                <p class="pure-steps_group-step_item">Wait for the popup to appear then click
+                                    <strong>"Trust"</strong>
+                                </p>
+                                <img class="image" src="image/2024_05_14_16_23_IMG_0994.JPG">
+                            </header>
+                        </li>
+                        <li class="pure-steps_group-step">
+                            <header>
+                                <h2 class="pure-steps_group-step_legend">Step 4</h2>
+                                <p class="pure-steps_group-step_item">If Expo require <strong>"Develop mode"</strong>
+                                    please turn it on</p>
+                                <p class="pure-steps_group-step_item">Open <strong>"Settings"</strong> >
+                                    <strong>"Privacy & Security"</strong> > <strong>"Developer
+                                        Mode"</strong>. Enable the toggle
+                                </p>
+                                <p class="pure-steps_group-step_item"><a style="color: #dfdfdf;"
+                                        href="https://docs.expo.dev/guides/ios-developer-mode/">Click
+                                        here to see detail 👆🏻</a></p>
+                            </header>
+                        </li>
+                        <li class="pure-steps_group-step">
+                            <header>
+                                <h2 class="pure-steps_group-step_legend">Step 5</h2>
+                                <p class="pure-steps_group-step_item">Open <strong>"Expo VTI"</strong>
+                                    and login as normal</p>
+                            </header>
+                        </li>
+                        <li class="pure-steps_group-step flexy-item">
+                            <div class="pure-steps_preload">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
+                                    style="enable-background:new 0 0 32 32;" xml:space="preserve">
+                                    <path
+                                        d="M31.8,3.6c-0.2-0.5-0.4-0.9-0.9-1.2C30.4,2,29.7,1.8,29,1.9c-0.6,0.1-1.2,0.4-1.6,1l-8.5,11.2l0,0l-7.2,9.5l-7.1-9.4 c-0.5-0.7-1.3-1-2.1-1c-0.5,0-1,0.2-1.4,0.5c-0.5,0.4-0.9,1-1,1.7s0.1,1.2,0.5,1.8l9.1,12.1l0,0c0.1,0.2,0.3,0.3,0.4,0.4 c0.4,0.3,0.9,0.5,1.4,0.5c0.8,0,1.6-0.3,2.1-1L22.1,18l0,0l9.1-12.1C32,5.2,32.1,4.4,31.8,3.6z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </li>
+                    </ol>
+                    <ol class="pure-steps_group-triggers">
+                        <li class="pure-steps_group-triggers_item">
+                            <label for="step-0">Restart</label>
+                        </li>
+                        <li onclick="clickInstall()" class="pure-steps_group-triggers_item">
+                            <label for="step-1">Install</label>
+                        </li>
+                        <li class="pure-steps_group-triggers_item">
+                            <label for="step-2">Jump in</label>
+                        </li>
+                        <li class="pure-steps_group-triggers_item">
+                            <label for="step-3">Next</label>
+                        </li>
+                        <li class="pure-steps_group-triggers_item">
+                            <label for="step-4">Next</label>
+                        </li>
+                        <li class="pure-steps_group-triggers_item">
+                            <label for="step-5">Next</label>
+                        </li>
+                        <li class="pure-steps_group-triggers_item">
+                            <label for="step-6">Next</label>
+                        </li>
+                    </ol>
+                </div>
+                <br>
+                <label for="step-0">Restart</label>
+            </form>
+        </article>
+    </section>
+
+</body>
+<script>
+    function clickInstall() {
+        window.location = document.getElementById("install").getAttribute('href')
+    }
+</script>
+
+</html>
